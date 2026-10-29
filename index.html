@@ -1,0 +1,2817 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HRP Euro Travel | Transport persoane și colete România, Austria, Germania, Olanda, Belgia</title>
+<meta name="description" content="Transport persoane și colete între România, Austria, Germania, Olanda și Belgia. Sună acum: 0748 706 618.">
+<meta name="keywords" content="HRP Euro Travel, transport persoane România Germania, transport persoane România Austria, transport persoane România Olanda, transport persoane România Belgia, transport colete internațional, transport colete Germania România, transport colete Austria România, transport colete Olanda România, transport colete Belgia România, transport persoane internațional, transport persoane cu microbuzul, transport persoane door to door, transport colete door to door, curse România Germania, curse România Austria, curse România Olanda, curse România Belgia, transport România Europa, microbuz România Germania, microbuz România Austria, microbuz România Olanda, microbuz România Belgia, transport bagaje internațional, transport persoane și colete Europa">
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Barlow:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap">
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;background:#0A0A0A;font-family:'Barlow','Helvetica Neue',Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.disp{font-family:'Barlow Condensed','Arial Narrow',Arial,sans-serif}
+.mono{font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace}
+a{color:inherit;text-decoration:none}
+.navlink{color:#C9C9D1}
+.navlink:hover{color:#FFFFFF}
+.btn:hover{transform:translateY(-2px)}
+.btn{transition:transform .15s ease}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #FFFFFF;outline-offset:3px}
+input::placeholder{color:#8A8A94}
+@media (max-width:760px){.navlinks{display:none}}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}.btn:hover{transform:none}}
+@keyframes rise{from{opacity:0;transform:translateY(36px)}to{opacity:1;transform:none}}
+.in{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+@supports (animation-timeline:view()){.reveal{animation:rise linear both;animation-timeline:view();animation-range:entry 0% entry 40%}}
+@keyframes drive{from{left:-320px}to{left:100%}}
+.van{animation:drive 20s linear infinite}
+@keyframes skyline{to{transform:translateX(-1600px)}}
+.sky{animation:skyline 80s linear infinite}
+@keyframes dash{to{background-position-x:-68px}}
+.dashes{animation:dash .9s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.wheel{transform-box:fill-box;transform-origin:center;animation:spin .5s linear infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+.bob{animation:bob .45s ease-in-out infinite}
+@keyframes beam{0%,100%{opacity:.9}50%{opacity:.6}}
+.beam{animation:beam 1.6s ease-in-out infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 currentColor}70%,100%{box-shadow:0 0 0 14px transparent}}
+.dot{animation:ping 2.2s ease-out infinite}
+@keyframes callring{0%{box-shadow:0 0 0 0 rgba(245,130,31,.65)}70%,100%{box-shadow:0 0 0 18px rgba(245,130,31,0)}}
+.pulse{animation:callring 2s ease-out infinite}
+@media (max-width:480px){.calllbl{display:none}.callbtn{padding:0!important;width:56px;justify-content:center}}
+
+/* HERO cu video de fundal */
+.hero{position:relative;overflow:hidden;isolation:isolate}
+.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;pointer-events:none;background:#0A0A0A}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(10,10,10,.78) 0%,rgba(10,10,10,.62) 45%,rgba(10,10,10,.92) 100%)}
+
+/* poze */
+.photo{display:block;width:100%;height:100%;object-fit:cover}
+.photo-frame{border-radius:20px;overflow:hidden;border:1px solid #2A2A2A;background:#141414}
+
+/* reels */
+.reels{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px clamp(20px,5vw,64px) 20px;scrollbar-width:thin;scrollbar-color:#F5821F #141414;-webkit-overflow-scrolling:touch}
+.reel{flex:0 0 clamp(190px,22vw,260px);aspect-ratio:9/16;border-radius:18px;overflow:hidden;background:#141414;border:1px solid #2A2A2A;scroll-snap-align:start;position:relative}
+.reel video{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
+
+/* Desktop: 3 videoclipuri pe rând */
+@media (min-width: 769px) {
+  #din-drum .reels {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+    box-sizing: border-box;
+    overflow: visible;
+  }
+
+  #din-drum .reel {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+  }
+
+  #din-drum .reel video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+  }
+}
+
+/* Telefon: 2 videoclipuri pe rând */
+@media (max-width: 768px) {
+  #din-drum .reels {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    padding: 0 16px;
+    overflow: visible;
+  }
+
+  #din-drum .reel {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+  }
+
+  #din-drum .reel video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+  }
+}
+
+
+/* testimoniale */
+.quote-mark{font-family:'Barlow Condensed',Arial,sans-serif;font-size:96px;line-height:.6;color:#F5821F;font-weight:800}
+
+/* social footer */
+.social{width:48px;height:48px;border-radius:50%;border:2px solid #3A3A3A;display:inline-flex;align-items:center;justify-content:center;transition:border-color .15s ease,background .15s ease}
+.social:hover{border-color:#F5821F;background:#1A1A1A}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important}}
+</style>
+</head>
+<body>
+<div style="background:#0A0A0A;color:#FFFFFF;min-width:0">
+
+  <!-- ===== HERO (header + conținut) cu video de fundal ===== -->
+  <div class="hero">
+    <!-- Pune fișierul video în același folder: hero-video.mp4 (opțional și hero-video.webm) -->
+    <video class="hero-video" id="hero-video" autoplay muted loop playsinline preload="auto" disablepictureinpicture aria-hidden="true" tabindex="-1">
+      <source src="hero-fundal.mp4" type="video/webm">
+      <source src="hero-fundal.mp4" type="video/mp4">
+    </video>
+
+
+<!-- ===== NAVBAR ORIGINAL HRP EURO TRAVEL ===== -->
+
+<style>
+  /* NAVBAR ORIGINAL */
+  .hrp-original {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 22px clamp(20px,5vw,64px);
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    position: relative;
+    z-index: 100;
+  }
+
+  /* LOGO DESKTOP */
+  .hrp-original-logo {
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 84px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .hrp-original-logo img {
+    position: absolute;
+    width: 318px;
+    max-width: none;
+    height: auto;
+    left: -56px;
+    top: -127px;
+    mix-blend-mode: screen;
+  }
+
+  /* LINKURI DESKTOP */
+  .hrp-original-links {
+    display: flex;
+    align-items: center;
+    gap: clamp(12px,2vw,32px);
+  }
+
+  .hrp-original-links a {
+    color: #E3E3EA;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: color .2s ease;
+  }
+
+  .hrp-original-links a:hover {
+    color: #F5821F;
+  }
+
+  /* BUTON TELEFON */
+  .hrp-original-call {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    background: #F5821F;
+    color: #0A0A0A;
+
+    font-weight: 600;
+    font-size: 16px;
+
+    padding: 13px 22px;
+    border-radius: 10px;
+
+    min-height: 44px;
+    box-sizing: border-box;
+    text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .hrp-original-call:hover {
+    background: #FF983D;
+  }
+
+  /* HAMBURGER */
+  .hrp-original-toggle {
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+
+    background: #191919;
+    color: #FFFFFF;
+    border: 1px solid #333;
+    border-radius: 9px;
+
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  /* TABLET SI TELEFON */
+  @media (max-width: 1100px) {
+
+    .hrp-original {
+      padding: 12px 20px;
+      gap: 12px;
+    }
+
+    .hrp-original-logo {
+      width: 145px;
+      height: 60px;
+    }
+
+    .hrp-original-logo img {
+      width: 231px;
+      left: -41px;
+      top: -92px;
+    }
+
+    .hrp-original-links {
+      display: none;
+
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+
+      background: #111111;
+      border: 1px solid #2A2A2A;
+      border-radius: 0 0 14px 14px;
+
+      padding: 12px 20px 20px;
+
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+
+      box-shadow: 0 15px 30px rgba(0,0,0,.4);
+      z-index: 200;
+    }
+
+    .hrp-original-links.open {
+      display: flex;
+    }
+
+    .hrp-original-links a {
+      padding: 14px 8px;
+      font-size: 16px;
+      border-bottom: 1px solid #292929;
+    }
+
+    .hrp-original-links a:last-child {
+      border-bottom: none;
+    }
+
+    .hrp-original-toggle {
+      display: inline-flex;
+    }
+
+    .hrp-original-call {
+      margin-left: auto;
+      padding: 11px 15px;
+      font-size: 14px;
+    }
+  }
+
+  
+/* Ascunde logo-ul din navbarul original doar pe mobile */
+@media (max-width: 700px) {
+  header.hrp-original .hrp-original-logo {
+    display: none !important;
+  }
+}
+
+
+  /* TELEFOANE MICI */
+  @media (max-width: 480px) {
+
+    .hrp-original {
+      padding: 10px 14px;
+      gap: 10px;
+    }
+
+    .hrp-original-logo {
+      width: 108px;
+      height: 48px;
+    }
+
+    .hrp-original-logo img {
+      width: 172px;
+      left: -30px;
+      top: -69px;
+    }
+
+    .hrp-original-call {
+      padding: 10px 12px;
+      min-height: 42px;
+      font-size: 13px;
+      gap: 6px;
+    }
+
+    .hrp-original-call span {
+      display: none;
+    }
+
+    .hrp-original-call svg {
+      width: 19px;
+      height: 19px;
+    }
+
+    .hrp-original-toggle {
+      width: 42px;
+      height: 42px;
+    }
+
+    .hrp-original-links {
+      padding: 10px 16px 18px;
+    }
+  }
+</style>
+
+
+<!-- ===== HTML NAVBAR ORIGINAL ===== -->
+
+<header class="in hrp-original" id="hrpOriginalNav">
+
+  <!-- LOGO -->
+  <a href="#top"
+     class="hrp-original-logo"
+     aria-label="HRP Euro Travel - Acasă">
+
+    <img src="logo.png"
+         alt="HRP Euro Travel">
+
+  </a>
+
+
+  <!-- LINKURI -->
+  <nav class="hrp-original-links"
+       id="hrpOriginalLinks"
+       aria-label="Navigare principală">
+
+    <a href="#servicii">Servicii</a>
+
+    <a href="#rute">Rute</a>
+
+    <a href="#din-drum">Din drum</a>
+
+    <a href="#cum">Cum funcționează</a>
+
+    <a href="#testimoniale">Testimoniale</a>
+
+    <a href="#contact">Contact</a>
+
+  </nav>
+
+
+  <!-- BUTON TELEFON -->
+  <a href="tel:+40748706618"
+     class="hrp-original-call">
+
+  <svg width="18"
+       height="18"
+       viewBox="0 0 24 24"
+       fill="none"
+       stroke="currentColor"
+       stroke-width="2.2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       aria-hidden="true">
+
+    <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/>
+
+  </svg>
+
+    <span>Sună acum: 0748 706 618</span>
+
+  </a>
+
+
+  <!-- HAMBURGER -->
+  <button
+    class="hrp-original-toggle"
+    type="button"
+    aria-label="Deschide meniul"
+    aria-controls="hrpOriginalLinks"
+    aria-expanded="false">
+
+    <svg width="24"
+         height="24"
+         viewBox="0 0 24 24"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         stroke-linecap="round">
+
+      <path d="M4 7h16M4 12h16M4 17h16"/>
+
+    </svg>
+
+  </button>
+
+</header>
+
+
+<!-- ===== JAVASCRIPT MENIU ORIGINAL ===== -->
+
+<script>
+(function () {
+
+  const original = document.getElementById('hrpOriginalNav');
+  const toggle = original?.querySelector('.hrp-original-toggle');
+  const links = document.getElementById('hrpOriginalLinks');
+
+  if (!original || !toggle || !links) return;
+
+  function closeMenu() {
+    links.classList.remove('open');
+
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-label', 'Deschide meniul');
+  }
+
+  /* DESCHIDERE / INCHIDERE */
+  toggle.addEventListener('click', function () {
+
+    const isOpen = links.classList.toggle('open');
+
+    toggle.setAttribute('aria-expanded', String(isOpen));
+
+    toggle.setAttribute(
+      'aria-label',
+      isOpen ? 'Închide meniul' : 'Deschide meniul'
+    );
+
+  });
+
+  /* INCHIDE LA CLICK PE LINK */
+  links.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('click', closeMenu);
+  });
+
+  /* INCHIDE LA CLICK IN EXTERIOR */
+  document.addEventListener('click', function (e) {
+    if (!original.contains(e.target)) {
+      closeMenu();
+    }
+  });
+
+  /* INCHIDE CU ESCAPE */
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      closeMenu();
+    }
+  });
+
+  /* INCHIDE LA REDIMENSIONARE PE DESKTOP */
+  window.addEventListener('resize', function () {
+    if (window.innerWidth > 1100) {
+      closeMenu();
+    }
+  });
+
+})();
+</script>
+
+
+  
+<!-- ===== HRP EURO TRAVEL - NAVBAR FIXED ===== -->
+
+<style>
+  /* NAVBAR SECUNDAR */
+  #hrpStickyNav {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: auto !important;
+
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+
+    z-index: 2147483647 !important;
+
+    background: rgba(10, 10, 10, .98) !important;
+    border-bottom: 1px solid #292929;
+    box-shadow: 0 6px 25px rgba(0,0,0,.45);
+
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    box-sizing: border-box;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-100%);
+    pointer-events: none;
+
+    transition:
+      opacity .25s ease,
+      transform .25s ease,
+      visibility .25s ease;
+  }
+
+  /* NAVBAR VIZIBIL */
+  #hrpStickyNav.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  /* CONTAINER INTERIOR */
+  #hrpStickyNav .hrp-sticky-inner {
+    width: 100%;
+    max-width: 1280px;
+    min-height: 68px;
+
+    margin: 0 auto;
+    padding: 0 clamp(16px, 4vw, 48px);
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  /* LOGO */
+  #hrpStickyNav .hrp-sticky-logo {
+    position: relative;
+    display: block;
+
+    width: 125px;
+    height: 60px;
+
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  /* Imaginea originala are spatiu
+     suplimentar in interior.
+     Ajustam decuparea pentru navbar. */
+  #hrpStickyNav .hrp-sticky-logo img {
+    position: absolute;
+
+    width: 185px;
+    max-width: none;
+    height: auto;
+
+    left: -30px;
+    top: -69px;
+
+    mix-blend-mode: screen;
+  }
+
+  /* LINKURI DESKTOP */
+  #hrpStickyNav .hrp-sticky-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: clamp(12px, 2vw, 28px);
+  }
+
+  #hrpStickyNav .hrp-sticky-links a {
+    color: #E3E3EA;
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+
+    transition: color .2s ease;
+  }
+
+  #hrpStickyNav .hrp-sticky-links a:hover {
+    color: #F5821F;
+  }
+
+  /* BUTON TELEFON */
+  #hrpStickyNav .hrp-sticky-call {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 10px 15px;
+    min-height: 40px;
+
+    box-sizing: border-box;
+
+    background: #F5821F;
+    color: #0A0A0A;
+
+    border-radius: 8px;
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+
+    flex-shrink: 0;
+
+    transition: background .2s ease;
+  }
+
+  #hrpStickyNav .hrp-sticky-call:hover {
+    background: #FF983D;
+  }
+
+  /* HAMBURGER */
+  #hrpStickyNav .hrp-sticky-toggle {
+    display: none;
+
+    width: 42px;
+    height: 42px;
+
+    background: #1A1A1A;
+    border: 1px solid #333;
+    border-radius: 8px;
+
+    color: #FFFFFF;
+    cursor: pointer;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+  }
+
+  /* TABLET */
+  @media (max-width: 1100px) {
+
+    #hrpStickyNav .hrp-sticky-inner {
+      min-height: 62px;
+      gap: 12px;
+    }
+
+    #hrpStickyNav .hrp-sticky-links {
+      display: none;
+
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+
+      padding: 12px 20px 20px;
+
+      background: #111111;
+      border-bottom: 1px solid #303030;
+
+      box-shadow: 0 15px 30px rgba(0,0,0,.4);
+
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+
+      z-index: 10;
+    }
+
+    #hrpStickyNav .hrp-sticky-links.open {
+      display: flex;
+    }
+
+    #hrpStickyNav .hrp-sticky-links a {
+      padding: 13px 8px;
+
+      font-size: 16px;
+      border-bottom: 1px solid #252525;
+    }
+
+    #hrpStickyNav .hrp-sticky-toggle {
+      display: inline-flex;
+    }
+
+    #hrpStickyNav .hrp-sticky-call {
+      margin-left: auto;
+    }
+  }
+
+  /* TELEFON */
+  @media (max-width: 480px) {
+
+    #hrpStickyNav .hrp-sticky-inner {
+      min-height: 58px;
+      padding: 0 14px;
+      gap: 10px;
+    }
+
+    #hrpStickyNav .hrp-sticky-logo {
+      width: 105px;
+      height: 52px;
+    }
+
+    #hrpStickyNav .hrp-sticky-logo img {
+      width: 156px;
+      left: -25px;
+      top: -58px;
+    }
+
+    #hrpStickyNav .hrp-sticky-call {
+      padding: 9px 11px;
+      min-height: 40px;
+      font-size: 13px;
+    }
+
+    #hrpStickyNav .hrp-sticky-call span {
+      display: none;
+    }
+
+    #hrpStickyNav .hrp-sticky-toggle {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  /* OFFSET ANCORE */
+  html {
+    scroll-padding-top: 80px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #hrpStickyNav {
+      transition: none;
+    }
+  }
+</style>
+
+
+<!-- ===== HTML NAVBAR ===== -->
+
+<header id="hrpStickyNav"
+        aria-label="Navigare fixă HRP Euro Travel">
+
+  <div class="hrp-sticky-inner">
+
+    <!-- LOGO -->
+    <a href="#top"
+       class="hrp-sticky-logo"
+       aria-label="HRP Euro Travel - Acasă">
+
+      <img src="logo.png"
+           alt="HRP Euro Travel">
+
+    </a>
+
+
+    <!-- LINKURI -->
+    <nav class="hrp-sticky-links"
+         id="hrpStickyLinks"
+         aria-label="Navigare la derulare">
+
+      <a href="#servicii">Servicii</a>
+
+      <a href="#rute">Rute</a>
+
+      <a href="#din-drum">Din drum</a>
+
+      <a href="#cum">Cum funcționează</a>
+
+      <a href="#testimoniale">Testimoniale</a>
+
+      <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <!-- TELEFON -->
+    <a href="tel:+40748706618"
+       class="hrp-sticky-call">
+
+      <svg width="18"
+           height="18"
+           viewBox="0 0 24 24"
+           fill="none"
+           stroke="currentColor"
+           stroke-width="2.2"
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           aria-hidden="true">
+
+        <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/>
+
+      </svg>
+
+      <span>0748 706 618</span>
+
+    </a>
+
+
+    <!-- MENIU MOBIL -->
+    <button
+      class="hrp-sticky-toggle"
+      type="button"
+      aria-label="Deschide meniul"
+      aria-controls="hrpStickyLinks"
+      aria-expanded="false">
+
+      <svg width="22"
+           height="22"
+           viewBox="0 0 24 24"
+           fill="none"
+           stroke="currentColor"
+           stroke-width="2"
+           stroke-linecap="round">
+
+        <path d="M4 7h16M4 12h16M4 17h16"/>
+
+      </svg>
+
+    </button>
+
+  </div>
+</header>
+
+
+<!-- ===== JAVASCRIPT ===== -->
+
+<script>
+(function () {
+
+  const sticky = document.getElementById('hrpStickyNav');
+  const original = document.querySelector('header.in');
+  const toggle = document.querySelector('.hrp-sticky-toggle');
+  const links = document.getElementById('hrpStickyLinks');
+
+  if (!sticky || !original || !toggle || !links) return;
+
+
+  /*
+   * IMPORTANT:
+   * Mutam navbarul direct in BODY.
+   * Astfel evitam containerele cu
+   * transform, overflow si stacking context.
+   */
+  if (sticky.parentElement !== document.body) {
+    document.body.appendChild(sticky);
+  }
+
+
+  /* INCHIDERE MENIU */
+  function closeMenu() {
+
+    links.classList.remove('open');
+
+    toggle.setAttribute(
+      'aria-expanded',
+      'false'
+    );
+
+    toggle.setAttribute(
+      'aria-label',
+      'Deschide meniul'
+    );
+
+  }
+
+
+  /*
+   * NAVBAR SECUNDAR:
+   * Apare cand navbarul original
+   * nu mai este vizibil.
+   */
+  function updateSticky() {
+
+    const rect = original.getBoundingClientRect();
+
+    const show = rect.bottom <= 0;
+
+    sticky.classList.toggle('visible', show);
+
+    if (!show) {
+      closeMenu();
+    }
+
+  }
+
+
+  /* SCROLL */
+  window.addEventListener(
+    'scroll',
+    updateSticky,
+    { passive: true }
+  );
+
+
+  /* RESIZE */
+  window.addEventListener(
+    'resize',
+    updateSticky
+  );
+
+
+  /* STARE INITIALA */
+  updateSticky();
+
+
+  /* HAMBURGER */
+  toggle.addEventListener('click', function () {
+
+    const isOpen = links.classList.toggle('open');
+
+    toggle.setAttribute(
+      'aria-expanded',
+      String(isOpen)
+    );
+
+    toggle.setAttribute(
+      'aria-label',
+      isOpen
+        ? 'Închide meniul'
+        : 'Deschide meniul'
+    );
+
+  });
+
+
+  /* CLICK PE LINK */
+  links.querySelectorAll('a').forEach(function (link) {
+
+    link.addEventListener('click', closeMenu);
+
+  });
+
+
+  /* CLICK IN EXTERIOR */
+  document.addEventListener('click', function (e) {
+
+    if (!sticky.contains(e.target)) {
+      closeMenu();
+    }
+
+  });
+
+
+  /* TASTA ESCAPE */
+  document.addEventListener('keydown', function (e) {
+
+    if (e.key === 'Escape') {
+      closeMenu();
+    }
+
+  });
+
+})();
+</script>
+
+
+
+  
+<!-- ===== HERO RESPONSIVE ===== -->
+
+<style>
+  
+/* ===== HERO - VARIANTA ECHILIBRATA ===== */
+
+#top.hrp-hero {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 42px clamp(20px, 4vw, 56px) 64px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 42px;
+  align-items: center;
+}
+
+#top .hrp-hero-content {
+  flex: 1 1 480px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#top .hrp-hero-label {
+  font-size: 14px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: #F5821F;
+}
+
+#top .hrp-hero-title {
+  margin: 0;
+  font-size: clamp(48px, 7.2vw, 96px);
+  line-height: 1.02;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .005em;
+  text-wrap: balance;
+}
+
+#top .hrp-hero-title span {
+  color: #F5821F;
+}
+
+#top .hrp-hero-description {
+  margin: 0;
+  font-size: 19px;
+  line-height: 1.55;
+  color: #E3E3EA;
+  max-width: 560px;
+}
+
+#top .hrp-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+#top .hrp-hero-btn {
+  font-weight: 600;
+  font-size: 17px;
+  padding: 14px 25px;
+  border-radius: 11px;
+  min-height: 44px;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#top .hrp-hero-btn-call {
+  background: #F5821F;
+  color: #0A0A0A;
+}
+
+#top .hrp-hero-btn-whatsapp {
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+/* CARD TRASEU */
+#top .hrp-hero-route {
+  flex: 0 1 370px;
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(20,20,20,.92);
+  border: 1px solid #2A2A2A;
+  border-radius: 18px;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+#top .hrp-route-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+#top .hrp-route-heading div {
+  font-size: 13px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+#top .hrp-route-list {
+  border-left: 3px solid #F5821F;
+  margin-left: 8px;
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+#top .hrp-route-item {
+  position: relative;
+}
+
+#top .hrp-route-dot {
+  position: absolute;
+  left: -42px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #0A0A0A;
+  border: 4px solid #F5821F;
+  box-sizing: border-box;
+}
+
+#top .hrp-country {
+  display: inline-flex;
+  height: 44px;
+  border-radius: 7px;
+  overflow: hidden;
+  background: #FFFFFF;
+  max-width: 100%;
+}
+
+#top .hrp-country-code {
+  width: 35px;
+  flex: 0 0 35px;
+  background: #12337A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+#top .hrp-country-stars {
+  width: 11px;
+  height: 11px;
+  border: 2px dotted #FFD84D;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+#top .hrp-country-code span {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #FFFFFF;
+}
+
+#top .hrp-country-name {
+  padding: 0 17px;
+  display: flex;
+  align-items: center;
+  color: #0A0A0A;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+#top .hrp-route-footer {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #C9C9D1;
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 1000px) {
+  #top.hrp-hero {
+    padding: 32px 28px 48px;
+    gap: 32px;
+  }
+
+  #top .hrp-hero-content {
+    flex-basis: 420px;
+  }
+
+  #top .hrp-hero-title {
+    font-size: clamp(46px, 6.5vw, 76px);
+  }
+
+  #top .hrp-hero-route {
+    flex: 1 1 320px;
+  }
+}
+
+/* ===== TELEFON ===== */
+@media (max-width: 600px) {
+  #top.hrp-hero {
+    padding: 26px 20px 42px;
+    gap: 30px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #top .hrp-hero-content {
+    flex: none;
+    width: 100%;
+    gap: 19px;
+  }
+
+  #top .hrp-hero-label {
+    font-size: 12px;
+  }
+
+  #top .hrp-hero-title {
+    font-size: clamp(40px, 10.5vw, 56px);
+    line-height: 1.04;
+  }
+
+  #top .hrp-hero-description {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  #top .hrp-hero-actions {
+    gap: 11px;
+  }
+
+  #top .hrp-hero-btn {
+    font-size: 15px;
+    padding: 12px 19px;
+    min-height: 44px;
+  }
+
+  #top .hrp-hero-route {
+    flex: none;
+    width: 100%;
+    padding: 22px;
+    gap: 18px;
+    border-radius: 16px;
+  }
+
+  #top .hrp-route-list {
+    gap: 14px;
+    padding-left: 30px;
+  }
+
+  #top .hrp-route-dot {
+    left: -40px;
+  }
+
+  #top .hrp-country {
+    height: 42px;
+  }
+
+  #top .hrp-country-code {
+    width: 33px;
+    flex-basis: 33px;
+  }
+
+  #top .hrp-country-name {
+    font-size: 20px;
+    padding: 0 15px;
+  }
+
+  #top .hrp-route-footer {
+    font-size: 14px;
+  }
+}
+
+/* ===== TELEFOANE FOARTE MICI ===== */
+@media (max-width: 360px) {
+  #top.hrp-hero {
+    padding: 22px 15px 36px;
+  }
+
+  #top .hrp-hero-title {
+    font-size: 37px;
+  }
+
+  #top .hrp-hero-btn {
+    font-size: 14px;
+    padding: 11px 14px;
+  }
+
+  #top .hrp-country-name {
+    font-size: 18px;
+  }
+}
+
+</style>
+
+
+
+<!-- =========================================
+     HRP EURO TRAVEL - HERO COMPLET
+     DESKTOP + MOBILE
+========================================= -->
+
+<style>
+  /* ===== HERO GENERAL ===== */
+
+  #top.hrp-hero {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 32px clamp(20px, 4vw, 56px) 60px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+  }
+
+  #top.hrp-hero,
+  #top.hrp-hero * {
+    box-sizing: border-box;
+  }
+
+  /* ===== COLOANA STANGA ===== */
+
+  #top .hrp-hero-content {
+    flex: 1 1 520px;
+    min-width: 0;
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  /* LOGO HERO - DESKTOP SI MOBILE */
+
+  #top .hrp-hero-logo {
+    display: none;
+    position: relative;
+
+    width: 240px;
+    height: 95px;
+    max-width: 100%;
+
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  #top .hrp-hero-logo img {
+    position: absolute;
+    width: 380px;
+    max-width: none;
+    height: auto;
+
+    left: -67px;
+    top: -152px;
+
+    mix-blend-mode: screen;
+  }
+
+  
+/* ===== SLOW FADE IN - LOGO HERO ===== */
+
+@keyframes slowFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#top .hrp-hero-logo {
+  animation: slowFadeIn 2s ease-out both;
+  animation-delay: 0.8s;
+}
+
+/* Respecta preferinta pentru animatii reduse */
+@media (prefers-reduced-motion: reduce) {
+  #top .hrp-hero-logo {
+    animation: none;
+  }
+}
+
+
+  /* ETICHETA */
+
+  #top .hrp-hero-label {
+    font-size: 14px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: #F5821F;
+  }
+
+  /* TITLU */
+
+  #top .hrp-hero-title {
+    margin: 0;
+
+    font-size: clamp(48px, 7vw, 100px);
+    line-height: 1;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .005em;
+    text-wrap: balance;
+
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  #top .hrp-hero-title span {
+    color: #F5821F;
+  }
+
+  /* DESCRIERE */
+
+  #top .hrp-hero-description {
+    margin: 0;
+    max-width: 560px;
+
+    font-size: 20px;
+    line-height: 1.55;
+    color: #E3E3EA;
+  }
+
+  /* BUTOANE */
+
+  #top .hrp-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    width: 100%;
+  }
+
+  #top .hrp-hero-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    min-height: 52px;
+    padding: 14px 24px;
+
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    text-align: center;
+
+    max-width: 100%;
+    white-space: normal;
+  }
+
+  #top .hrp-hero-btn svg {
+    width: 21px;
+    height: 21px;
+    flex-shrink: 0;
+  }
+
+  #top .hrp-hero-btn-call {
+    background: #F5821F;
+    color: #0A0A0A;
+    border: 2px solid #F5821F;
+  }
+
+  #top .hrp-hero-btn-whatsapp {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+  }
+
+  /* ===== CARD TRASEU DREAPTA ===== */
+
+  #top .hrp-hero-route {
+    flex: 0 1 380px;
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+
+    background: rgba(20,20,20,.92);
+    border: 1px solid #2A2A2A;
+    border-radius: 18px;
+
+    padding: 28px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  #top .hrp-route-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+
+  #top .hrp-route-heading div {
+    font-size: 13px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+
+  #top .hrp-route-list {
+    border-left: 3px solid #F5821F;
+    margin-left: 8px;
+    padding-left: 34px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  #top .hrp-route-item {
+    position: relative;
+    min-width: 0;
+  }
+
+  #top .hrp-route-dot {
+    position: absolute;
+    left: -44px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+    background: #0A0A0A;
+    border: 4px solid #F5821F;
+  }
+
+  #top .hrp-country {
+    display: inline-flex;
+    align-items: stretch;
+
+    height: 46px;
+    max-width: 100%;
+    min-width: 0;
+
+    background: #FFFFFF;
+    border-radius: 7px;
+    overflow: hidden;
+  }
+
+  #top .hrp-country-code {
+    width: 36px;
+    flex: 0 0 36px;
+
+    background: #12337A;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+  }
+
+  #top .hrp-country-stars {
+    width: 11px;
+    height: 11px;
+    border: 2px dotted #FFD84D;
+    border-radius: 50%;
+  }
+
+  #top .hrp-country-code span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+
+  #top .hrp-country-name {
+    min-width: 0;
+    padding: 0 18px;
+
+    display: flex;
+    align-items: center;
+
+    color: #0A0A0A;
+    font-size: 23px;
+    font-weight: 800;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  #top .hrp-route-footer {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #C9C9D1;
+  }
+
+  /* ===== DESKTOP MAI INGUST / TABLET ===== */
+
+  @media (max-width: 1100px) {
+    #top.hrp-hero {
+      gap: 28px;
+      padding: 30px 28px 52px;
+    }
+
+    #top .hrp-hero-content {
+      flex-basis: 440px;
+    }
+
+    #top .hrp-hero-title {
+      font-size: clamp(44px, 6.5vw, 76px);
+    }
+
+    #top .hrp-hero-route {
+      flex-basis: 340px;
+      padding: 24px;
+    }
+
+    #top .hrp-country-name {
+      font-size: 21px;
+    }
+  }
+
+  /* =========================================
+     MOBILE
+  ========================================= */
+
+  @media (max-width: 700px) {
+
+    #top.hrp-hero {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      min-height: 0;
+
+      padding: 24px 18px 44px;
+      gap: 42px;
+    }
+
+    /* Continutul ocupa exact latimea disponibila */
+
+    #top .hrp-hero-content {
+      flex: 0 0 auto;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+
+      align-items: stretch;
+      gap: 19px;
+    }
+
+    /* Logo centrat pe mobil */
+
+    #top .hrp-hero-logo {
+      display: block;
+      width: 220px;
+      height: 90px;
+      margin: 0 auto 2px;
+    }
+
+    #top .hrp-hero-logo img {
+      width: 348px;
+      top: -139px;
+    }
+
+    #top .hrp-hero-label {
+      font-size: 12px;
+      letter-spacing: .12em;
+      text-align: center;
+    }
+
+    /* Titlu mare, dar fara depasire orizontala */
+
+    #top .hrp-hero-title {
+      width: 100%;
+      max-width: 100%;
+      margin: 0;
+
+      font-size: clamp(36px, 9.8vw, 56px);
+      line-height: 1.04;
+      letter-spacing: 0;
+
+      text-align: center;
+      text-wrap: balance;
+      overflow-wrap: anywhere;
+    }
+
+    #top .hrp-hero-description {
+      width: 100%;
+      max-width: 540px;
+      margin: 0 auto;
+
+      font-size: 17px;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    /* BUTOANE MARI */
+
+    #top .hrp-hero-actions {
+      display: flex;
+      flex-direction: column;
+
+      width: 100%;
+      max-width: 100%;
+      gap: 12px;
+
+      margin-top: 6px;
+    }
+
+    #top .hrp-hero-btn {
+      width: 100%;
+      max-width: 100%;
+      min-height: 62px;
+
+      padding: 16px 18px;
+      border-radius: 13px;
+
+      font-size: 19px;
+      font-weight: 800;
+    }
+
+    #top .hrp-hero-btn svg {
+      width: 23px;
+      height: 23px;
+    }
+
+    /* CARDUL CU TARI - SUB BUTOANE */
+
+    #top .hrp-hero-route {
+      flex: 0 0 auto;
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+
+      padding: 22px 18px;
+      gap: 20px;
+      border-radius: 16px;
+    }
+
+    #top .hrp-route-list {
+      padding-left: 29px;
+      margin-left: 8px;
+      gap: 16px;
+    }
+
+    #top .hrp-route-dot {
+      left: -39px;
+    }
+
+    #top .hrp-country {
+      height: 42px;
+      max-width: 100%;
+    }
+
+    #top .hrp-country-code {
+      width: 32px;
+      flex-basis: 32px;
+    }
+
+    #top .hrp-country-name {
+      font-size: clamp(16px, 5vw, 21px);
+      padding: 0 12px;
+      letter-spacing: .02em;
+    }
+
+    #top .hrp-route-footer {
+      font-size: 14px;
+    }
+  }
+
+  /* ===== TELEFOANE FOARTE MICI ===== */
+
+  @media (max-width: 380px) {
+
+    #top.hrp-hero {
+      padding: 20px 14px 38px;
+      gap: 36px;
+    }
+
+    #top .hrp-hero-logo {
+      width: 190px;
+      height: 80px;
+    }
+
+    #top .hrp-hero-logo img {
+      width: 301px;
+      top: -120px;
+    }
+
+    #top .hrp-hero-title {
+      font-size: clamp(33px, 9.5vw, 38px);
+    }
+
+    #top .hrp-hero-description {
+      font-size: 16px;
+    }
+
+    #top .hrp-hero-btn {
+      font-size: 18px;
+      min-height: 60px;
+    }
+
+    #top .hrp-hero-route {
+      padding: 18px 14px;
+    }
+
+    #top .hrp-route-list {
+      padding-left: 25px;
+    }
+
+    #top .hrp-route-dot {
+      left: -35px;
+    }
+
+    #top .hrp-country-name {
+      font-size: 16px;
+      padding: 0 9px;
+    }
+  }
+</style>
+
+
+<!-- =========================================
+     HTML HERO
+========================================= -->
+
+<section id="top" class="hrp-hero">
+
+  <!-- COLOANA STANGA -->
+  <div class="hrp-hero-content">
+
+    <!-- LOGO HRP MAI MARE -->
+    <div class="hrp-hero-logo">
+      <img src="logo.png" alt="HRP Euro Travel">
+    </div>
+
+    <div class="mono in hrp-hero-label"
+         style="animation-delay:.05s">
+      Transport persoane și colete
+    </div>
+
+    <h1 class="disp in hrp-hero-title"
+        style="animation-delay:.15s">
+      Din România în Europa de Vest.
+      <span>Și înapoi.</span>
+    </h1>
+
+    <p class="in hrp-hero-description"
+       style="animation-delay:.28s">
+      Transportăm persoane și colete între România,
+      Austria, Germania, Olanda și Belgia.
+    </p>
+
+    <!-- BUTOANE -->
+    <div class="in hrp-hero-actions"
+         style="animation-delay:.4s">
+
+      <a class="btn hrp-hero-btn hrp-hero-btn-call"
+         href="tel:+40748706618">
+
+        <svg viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2.2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             aria-hidden="true">
+          <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/>
+        </svg>
+
+        Sună acum
+      </a>
+
+      <a class="btn hrp-hero-btn hrp-hero-btn-whatsapp"
+         href="https://wa.me/40748706618"
+         target="_blank"
+         rel="noopener noreferrer">
+
+        <svg viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             aria-hidden="true">
+          <path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.5L3 21l2-5.6A8.5 8.5 0 1 1 21 11.5Z"/>
+          <path d="M9 8.5c.4 2.7 2.3 4.6 5 5.1l1.5-1.3 2 1.2c-.4 2-1.6 2.5-3.4 2.1-3.9-.8-6.6-3.5-7.3-7.3-.3-1.8.2-3 2.1-3.4l1.2 2-1.2 1.6Z"/>
+        </svg>
+
+        Scrie pe WhatsApp
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- COLOANA DREAPTA - TRASEUL -->
+  <div class="in hrp-hero-route"
+       style="animation-delay:.3s">
+
+    <div class="hrp-route-heading">
+      <div class="mono" style="color:#C9C9D1">
+        Traseul nostru
+      </div>
+      <div class="mono" style="color:#F5821F">
+        5 țări
+      </div>
+    </div>
+
+    <div class="hrp-route-list">
+
+      <!-- ROMANIA -->
+      <div class="hrp-route-item">
+        <div class="dot hrp-route-dot"></div>
+        <div class="hrp-country">
+          <div class="hrp-country-code">
+            <div class="hrp-country-stars"></div>
+            <span class="disp">RO</span>
+          </div>
+          <div class="disp hrp-country-name">
+            România
+          </div>
+        </div>
+      </div>
+
+      <!-- AUSTRIA -->
+      <div class="hrp-route-item">
+        <div class="dot hrp-route-dot"></div>
+        <div class="hrp-country">
+          <div class="hrp-country-code">
+            <div class="hrp-country-stars"></div>
+            <span class="disp">A</span>
+          </div>
+          <div class="disp hrp-country-name">
+            Austria
+          </div>
+        </div>
+      </div>
+
+      <!-- GERMANIA -->
+      <div class="hrp-route-item">
+        <div class="dot hrp-route-dot"></div>
+        <div class="hrp-country">
+          <div class="hrp-country-code">
+            <div class="hrp-country-stars"></div>
+            <span class="disp">D</span>
+          </div>
+          <div class="disp hrp-country-name">
+            Germania
+          </div>
+        </div>
+      </div>
+
+      <!-- OLANDA -->
+      <div class="hrp-route-item">
+        <div class="dot hrp-route-dot"></div>
+        <div class="hrp-country">
+          <div class="hrp-country-code">
+            <div class="hrp-country-stars"></div>
+            <span class="disp">NL</span>
+          </div>
+          <div class="disp hrp-country-name">
+            Olanda
+          </div>
+        </div>
+      </div>
+
+      <!-- BELGIA -->
+      <div class="hrp-route-item">
+        <div class="dot hrp-route-dot"></div>
+        <div class="hrp-country">
+          <div class="hrp-country-code">
+            <div class="hrp-country-stars"></div>
+            <span class="disp">B</span>
+          </div>
+          <div class="disp hrp-country-name">
+            Belgia
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="hrp-route-footer">
+      Curse săptămânale, cu șoferi profesioniști!
+    </div>
+
+  </div>
+
+</section>
+
+</div>
+
+<!-- ===== /HERO ===== -->
+
+  <div aria-hidden="true" style="position:relative;height:190px;overflow:hidden;background:#0A0A0A;border-bottom:1px solid #222222">
+    <div class="sky" style="position:absolute;left:0;bottom:44px;display:flex;width:4800px"><svg width="1600" height="90" viewBox="0 0 1600 90" fill="#0F2A52" style="display:block;flex:none"><rect x="0" y="40" width="70" height="50"/><rect x="80" y="20" width="50" height="70"/><rect x="140" y="55" width="90" height="35"/><rect x="240" y="30" width="60" height="60"/><rect x="310" y="10" width="40" height="80"/><rect x="460" y="50" width="100" height="40"/><rect x="570" y="25" width="55" height="65"/><rect x="640" y="45" width="80" height="45"/><rect x="740" y="15" width="45" height="75"/><rect x="800" y="60" width="110" height="30"/><rect x="920" y="35" width="60" height="55"/><rect x="990" y="50" width="70" height="40"/><rect x="1070" y="18" width="50" height="72"/><rect x="1130" y="58" width="100" height="32"/><rect x="1240" y="30" width="55" height="60"/><rect x="1305" y="48" width="85" height="42"/><rect x="1400" y="12" width="45" height="78"/><rect x="1455" y="52" width="60" height="38"/><rect x="1525" y="35" width="75" height="55"/><polygon points="400,90 400,45 420,8 440,45 440,90"/></svg><svg width="1600" height="90" viewBox="0 0 1600 90" fill="#0F2A52" style="display:block;flex:none"><rect x="0" y="40" width="70" height="50"/><rect x="80" y="20" width="50" height="70"/><rect x="140" y="55" width="90" height="35"/><rect x="240" y="30" width="60" height="60"/><rect x="310" y="10" width="40" height="80"/><rect x="460" y="50" width="100" height="40"/><rect x="570" y="25" width="55" height="65"/><rect x="640" y="45" width="80" height="45"/><rect x="740" y="15" width="45" height="75"/><rect x="800" y="60" width="110" height="30"/><rect x="920" y="35" width="60" height="55"/><rect x="990" y="50" width="70" height="40"/><rect x="1070" y="18" width="50" height="72"/><rect x="1130" y="58" width="100" height="32"/><rect x="1240" y="30" width="55" height="60"/><rect x="1305" y="48" width="85" height="42"/><rect x="1400" y="12" width="45" height="78"/><rect x="1455" y="52" width="60" height="38"/><rect x="1525" y="35" width="75" height="55"/><polygon points="400,90 400,45 420,8 440,45 440,90"/></svg><svg width="1600" height="90" viewBox="0 0 1600 90" fill="#0F2A52" style="display:block;flex:none"><rect x="0" y="40" width="70" height="50"/><rect x="80" y="20" width="50" height="70"/><rect x="140" y="55" width="90" height="35"/><rect x="240" y="30" width="60" height="60"/><rect x="310" y="10" width="40" height="80"/><rect x="460" y="50" width="100" height="40"/><rect x="570" y="25" width="55" height="65"/><rect x="640" y="45" width="80" height="45"/><rect x="740" y="15" width="45" height="75"/><rect x="800" y="60" width="110" height="30"/><rect x="920" y="35" width="60" height="55"/><rect x="990" y="50" width="70" height="40"/><rect x="1070" y="18" width="50" height="72"/><rect x="1130" y="58" width="100" height="32"/><rect x="1240" y="30" width="55" height="60"/><rect x="1305" y="48" width="85" height="42"/><rect x="1400" y="12" width="45" height="78"/><rect x="1455" y="52" width="60" height="38"/><rect x="1525" y="35" width="75" height="55"/><polygon points="400,90 400,45 420,8 440,45 440,90"/></svg></div>
+    <div style="position:absolute;left:0;right:0;bottom:0;height:44px;background:#141414;border-top:2px solid #2A2A2A"></div>
+    <div class="dashes" style="position:absolute;left:0;right:0;bottom:19px;height:5px;background-image:linear-gradient(90deg,#F5821F 0 36px,transparent 36px 68px);background-size:68px 5px;background-repeat:repeat-x"></div>
+    <div class="van" style="position:absolute;bottom:10px;left:-320px;width:260px">
+      <svg class="bob" viewBox="0 0 260 110" width="260" height="110" style="overflow:visible;display:block">
+        <polygon class="beam" points="222,62 420,40 420,92 222,72" fill="#FFE9A8" opacity=".12"></polygon>
+        <path d="M12 78 V28 a8 8 0 0 1 8-8 H168 L214 50 a14 14 0 0 1 8 12 V78 a4 4 0 0 1-4 4 H16 a4 4 0 0 1-4-4z" fill="#12337A"></path>
+        <rect x="12" y="62" width="210" height="8" fill="#F5821F"></rect>
+        <rect x="30" y="30" width="38" height="22" rx="3" fill="#0A1830"></rect>
+        <rect x="76" y="30" width="38" height="22" rx="3" fill="#0A1830"></rect>
+        <rect x="122" y="30" width="30" height="22" rx="3" fill="#0A1830"></rect>
+        <polygon points="160,29 160,52 203,52 184,29" fill="#0A1830"></polygon>
+        <rect x="10" y="50" width="4" height="12" fill="#D83A2E"></rect>
+        <circle cx="60" cy="84" r="22" fill="#0A0A0A"></circle>
+        <circle cx="176" cy="84" r="22" fill="#0A0A0A"></circle>
+        <g class="wheel"><circle cx="60" cy="84" r="17" fill="#1A1A1A" stroke="#3A3A3A" stroke-width="2"></circle><circle cx="60" cy="84" r="8" fill="#9AA3B5"></circle><path d="M60 78v12M54 84h12" stroke="#0A0A0A" stroke-width="2"></path></g>
+        <g class="wheel"><circle cx="176" cy="84" r="17" fill="#1A1A1A" stroke="#3A3A3A" stroke-width="2"></circle><circle cx="176" cy="84" r="8" fill="#9AA3B5"></circle><path d="M176 78v12M170 84h12" stroke="#0A0A0A" stroke-width="2"></path></g>
+        <circle cx="219" cy="66" r="3.5" fill="#FFE9A8"></circle>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ===== SERVICII ===== -->
+  <section id="servicii" style="max-width:1280px;margin:0 auto;padding:clamp(56px,8vw,112px) clamp(20px,5vw,64px);box-sizing:border-box;display:flex;flex-direction:column;gap:48px">
+    <div class="reveal" style="display:flex;flex-direction:column;gap:14px;max-width:760px">
+      <div class="mono" style="font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#F5821F">Servicii</div>
+      <h2 class="disp" style="margin:0;font-size:clamp(40px,5.6vw,72px);line-height:.98;font-weight:800;text-transform:uppercase;text-wrap:balance">Persoane și colete, pe același drum</h2>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:24px">
+
+      <article class="reveal" style="flex:1 1 440px;min-width:0;box-sizing:border-box;background:#0F2A52;border-radius:20px;padding:clamp(28px,4vw,48px);display:flex;flex-direction:column;gap:22px">
+        <div style="width:60px;height:60px;border-radius:14px;background:#F5821F;display:flex;align-items:center;justify-content:center">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"></circle><path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"></path><circle cx="17.5" cy="9" r="2.6"></circle><path d="M17.5 14.2c2.4 0 4 1.7 4 4.3"></path></svg>
+        </div>
+        <h3 class="disp" style="margin:0;font-size:44px;line-height:1;font-weight:800;text-transform:uppercase">Transport persoane</h3>
+        <p style="margin:0;font-size:18px;line-height:1.6;color:#D6DEEE">Călătorești între România și Austria, Germania, Olanda sau Belgia. Ne spui de unde pleci și unde ajungi, iar noi îți confirmăm cursa și locul.</p>
+        <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:17px;color:#FFFFFF">
+          <li style="display:flex;gap:12px;align-items:flex-start"><span style="color:#F5821F;font-weight:800">→</span>Rezervare simplă, prin telefon sau mesaj</li>
+          <li style="display:flex;gap:12px;align-items:flex-start"><span style="color:#F5821F;font-weight:800">→</span>Locul îți este confirmat înainte de plecare</li>
+          <li style="display:flex;gap:12px;align-items:flex-start"><span style="color:#F5821F;font-weight:800">→</span>Întrebi de bagaje în momentul rezervării</li>
+        </ul>
+        <!-- Poza 1: flota de microbuze -> salvează ca flota.jpg -->
+        <div class="photo-frame" style="aspect-ratio:16/10;margin-top:6px">
+          <img class="photo" src="flota.png" alt="Microbuze Mercedes-Benz parcate, gata de plecare" loading="lazy">
+        </div>
+      </article>
+
+      <article class="reveal" style="flex:1 1 440px;min-width:0;box-sizing:border-box;background:#141414;border:1px solid #2A2A2A;border-radius:20px;padding:clamp(28px,4vw,48px);display:flex;flex-direction:column;gap:22px">
+        <div style="width:60px;height:60px;border-radius:14px;background:#F5821F;display:flex;align-items:center;justify-content:center">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 7.5 12 3l8.5 4.5v9L12 21l-8.5-4.5z"></path><path d="M3.5 7.5 12 12l8.5-4.5"></path><path d="M12 12v9"></path></svg>
+        </div>
+        <h3 class="disp" style="margin:0;font-size:44px;line-height:1;font-weight:800;text-transform:uppercase">Transport colete</h3>
+        <p style="margin:0;font-size:18px;line-height:1.6;color:#C9C9D1">Trimiți colete către familie, prieteni sau firme, în ambele sensuri. Ne spui ce trimiți și încotro, iar noi stabilim cum ajunge.</p>
+        <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:17px;color:#FFFFFF">
+          <li style="display:flex;gap:12px;align-items:flex-start"><span style="color:#F5821F;font-weight:800">→</span>Colete mici și colete mari</li>
+          <li style="display:flex;gap:12px;align-items:flex-start"><span style="color:#F5821F;font-weight:800">→</span>Din România spre Vest și din Vest spre România</li>
+          <li style="display:flex;gap:12px;align-items:flex-start"><span style="color:#F5821F;font-weight:800">→</span>Prețul depinde de dimensiune și destinație</li>
+        </ul>
+        <!-- Poza 2: microbuz pe drum -> salvează ca pe-drum.jpg -->
+        <div class="photo-frame" style="aspect-ratio:16/10;margin-top:6px">
+          <img class="photo" src="pe-drum.png" alt="Microbuzul HRP Euro Travel pe drum, iarna" loading="lazy">
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== RUTE ===== -->
+  <section id="rute" style="background:#111111;border-top:1px solid #222222;border-bottom:1px solid #222222">
+    <div style="max-width:1280px;margin:0 auto;padding:clamp(56px,8vw,112px) clamp(20px,5vw,64px);box-sizing:border-box;display:flex;flex-direction:column;gap:48px">
+      <div class="reveal" style="display:flex;flex-direction:column;gap:14px;max-width:760px">
+        <div class="mono" style="font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#F5821F">Rute</div>
+        <h2 class="disp" style="margin:0;font-size:clamp(40px,5.6vw,72px);line-height:.98;font-weight:800;text-transform:uppercase;text-wrap:balance">România și patru țări din Vest</h2>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:20px">
+
+          <div class="reveal" style="flex:1 1 520px;min-width:0;box-sizing:border-box;background:#0A0A0A;border:1px solid #2A2A2A;border-radius:16px;padding:26px 28px;display:flex;flex-wrap:wrap;align-items:center;gap:18px">
+            <div style="display:inline-flex;height:46px;border-radius:7px;overflow:hidden;background:#FFFFFF">
+              <div style="width:36px;background:#12337A;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px">
+                <div style="width:11px;height:11px;border:2px dotted #FFD84D;border-radius:50%;box-sizing:border-box"></div>
+                <span class="disp" style="font-size:12px;font-weight:700;line-height:1;color:#FFFFFF">RO</span>
+              </div>
+              <div class="disp" style="padding:0 16px;display:flex;align-items:center;color:#0A0A0A;font-size:22px;font-weight:800;letter-spacing:.06em;text-transform:uppercase">România</div>
+            </div>
+            <svg width="40" height="24" viewBox="0 0 40 24" fill="none" stroke="#F5821F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h32M29 2l6 6-6 6"></path><path d="M37 17H5M11 11l-6 6 6 6"></path></svg>
+            <div style="display:inline-flex;height:46px;border-radius:7px;overflow:hidden;background:#FFFFFF">
+              <div style="width:36px;background:#12337A;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px">
+                <div style="width:11px;height:11px;border:2px dotted #FFD84D;border-radius:50%;box-sizing:border-box"></div>
+                <span class="disp" style="font-size:12px;font-weight:700;line-height:1;color:#FFFFFF">A</span>
+              </div>
+              <div class="disp" style="padding:0 16px;display:flex;align-items:center;color:#0A0A0A;font-size:22px;font-weight:800;letter-spacing:.06em;text-transform:uppercase">Austria</div>
+            </div>
+          
+<div style="flex:1 1 100%;font-size:16px;line-height:1.5;color:#C9C9D1">
+  Viena, Graz, Linz, Salzburg, Innsbruck, Klagenfurt, Villach, Wels, Sankt Pölten, Dornbirn și alte orașe.
+</div>
+</div>
+
+          <div class="reveal" style="flex:1 1 520px;min-width:0;box-sizing:border-box;background:#0A0A0A;border:1px solid #2A2A2A;border-radius:16px;padding:26px 28px;display:flex;flex-wrap:wrap;align-items:center;gap:18px">
+            <div style="display:inline-flex;height:46px;border-radius:7px;overflow:hidden;background:#FFFFFF">
+              <div style="width:36px;background:#12337A;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px">
+                <div style="width:11px;height:11px;border:2px dotted #FFD84D;border-radius:50%;box-sizing:border-box"></div>
+                <span class="disp" style="font-size:12px;font-weight:700;line-height:1;color:#FFFFFF">RO</span>
+              </div>
+              <div class="disp" style="padding:0 16px;display:flex;align-items:center;color:#0A0A0A;font-size:22px;font-weight:800;letter-spacing:.06em;text-transform:uppercase">România</div>
+            </div>
+            <svg width="40" height="24" viewBox="0 0 40 24" fill="none" stroke="#F5821F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h32M29 2l6 6-6 6"></path><path d="M37 17H5M11 11l-6 6 6 6"></path></svg>
+            <div style="display:inline-flex;height:46px;border-radius:7px;overflow:hidden;background:#FFFFFF">
+              <div style="width:36px;background:#12337A;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px">
+                <div style="width:11px;height:11px;border:2px dotted #FFD84D;border-radius:50%;box-sizing:border-box"></div>
+                <span class="disp" style="font-size:12px;font-weight:700;line-height:1;color:#FFFFFF">D</span>
+              </div>
+              <div class="disp" style="padding:0 16px;display:flex;align-items:center;color:#0A0A0A;font-size:22px;font-weight:800;letter-spacing:.06em;text-transform:uppercase">Germania</div>
+            </div>
+
+<div style="flex:1 1 100%;font-size:16px;line-height:1.5;color:#C9C9D1">
+  Berlin, Hamburg, München, Köln, Frankfurt, Stuttgart, Düsseldorf, Leipzig, Dortmund, Essen și alte orașe.
+</div>
+
+          </div>
+
+          <div class="reveal" style="flex:1 1 520px;min-width:0;box-sizing:border-box;background:#0A0A0A;border:1px solid #2A2A2A;border-radius:16px;padding:26px 28px;display:flex;flex-wrap:wrap;align-items:center;gap:18px">
+            <div style="display:inline-flex;height:46px;border-radius:7px;overflow:hidden;background:#FFFFFF">
+              <div style="width:36px;background:#12337A;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px">
+                <div style="width:11px;height:11px;border:2px dotted #FFD84D;border-radius:50%;box-sizing:border-box"></div>
+                <span class="disp" style="font-size:12px;font-weight:700;line-height:1;color:#FFFFFF">RO</span>
+              </div>
+              <div class="disp" style="padding:0 16px;display:flex;align-items:center;color:#0A0A0A;font-size:22px;font-weight:800;letter-spacing:.06em;text-transform:uppercase">România</div>
+            </div>
+            <svg width="40" height="24" viewBox="0 0 40 24" fill="none" stroke="#F5821F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h32M29 2l6 6-6 6"></path><path d="M37 17H5M11 11l-6 6 6 6"></path></svg>
+            <div style="display:inline-flex;height:46px;border-radius:7px;overflow:hidden;background:#FFFFFF">
+              <div style="width:36px;background:#12337A;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px">
+                <div style="width:11px;height:11px;border:2px dotted #FFD84D;border-radius:50%;box-sizing:border-box"></div>
+                <span class="disp" style="font-size:12px;font-weight:700;line-height:1;color:#FFFFFF">NL</span>
+              </div>
+              <div class="disp" style="padding:0 16px;display:flex;align-items:center;color:#0A0A0A;font-size:22px;font-weight:800;letter-spacing:.06em;text-transform:uppercase">Olanda</div>
+            </div>
+          
+<div style="flex:1 1 100%;font-size:16px;line-height:1.5;color:#C9C9D1">
+  Amsterdam, Rotterdam, Haga, Utrecht, Eindhoven, Groningen, Tilburg, Almere, Breda, Nijmegen și alte orașe.
+</div>
+</div>
+
+          <div class="reveal" style="flex:1 1 520px;min-width:0;box-sizing:border-box;background:#0A0A0A;border:1px solid #2A2A2A;border-radius:16px;padding:26px 28px;display:flex;flex-wrap:wrap;align-items:center;gap:18px">
+            <div style="display:inline-flex;height:46px;border-radius:7px;overflow:hidden;background:#FFFFFF">
+              <div style="width:36px;background:#12337A;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px">
+                <div style="width:11px;height:11px;border:2px dotted #FFD84D;border-radius:50%;box-sizing:border-box"></div>
+                <span class="disp" style="font-size:12px;font-weight:700;line-height:1;color:#FFFFFF">RO</span>
+              </div>
+              <div class="disp" style="padding:0 16px;display:flex;align-items:center;color:#0A0A0A;font-size:22px;font-weight:800;letter-spacing:.06em;text-transform:uppercase">România</div>
+            </div>
+            <svg width="40" height="24" viewBox="0 0 40 24" fill="none" stroke="#F5821F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h32M29 2l6 6-6 6"></path><path d="M37 17H5M11 11l-6 6 6 6"></path></svg>
+            <div style="display:inline-flex;height:46px;border-radius:7px;overflow:hidden;background:#FFFFFF">
+              <div style="width:36px;background:#12337A;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px">
+                <div style="width:11px;height:11px;border:2px dotted #FFD84D;border-radius:50%;box-sizing:border-box"></div>
+                <span class="disp" style="font-size:12px;font-weight:700;line-height:1;color:#FFFFFF">B</span>
+              </div>
+              <div class="disp" style="padding:0 16px;display:flex;align-items:center;color:#0A0A0A;font-size:22px;font-weight:800;letter-spacing:.06em;text-transform:uppercase">Belgia</div>
+            </div>
+          
+<div style="flex:1 1 100%;font-size:16px;line-height:1.5;color:#C9C9D1">
+  Bruxelles, Anvers, Gent, Charleroi, Liège, Bruges, Namur, Leuven, Mons, Mechelen și alte orașe.
+</div>
+</div>
+
+      </div>
+    </div>
+  </section>
+  
+  <style>
+
+
+/* ===== RUTE RESPONSIVE TELEFON ===== */
+
+@media (max-width: 600px) {
+
+  /* Cardurile cu rute */
+  #rute .reveal[style*="flex:1 1 520px"] {
+    padding: 18px 10px !important;
+    gap: 5px !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+
+  /* Casetele cu numele tarilor */
+  #rute .reveal[style*="flex:1 1 520px"] > div[style*="inline-flex"] {
+    height: 45px !important;
+    flex: 0 1 auto !important;
+    min-width: 0 !important;
+    max-width: calc((100% - 35px) / 2);
+    border-radius: 6px !important;
+  }
+
+  /* Zona albastra cu codul tarii */
+  #rute .reveal[style*="flex:1 1 520px"] > div[style*="inline-flex"] > div:first-child {
+    width: 30px !important;
+    flex: 0 0 30px !important;
+    gap: 3px !important;
+  }
+
+  /* Cerc galben */
+  #rute .reveal[style*="flex:1 1 520px"] > div[style*="inline-flex"] > div:first-child > div {
+    width: 11px !important;
+    height: 11px !important;
+  }
+
+  /* Codul tarii */
+  #rute .reveal[style*="flex:1 1 520px"] > div[style*="inline-flex"] span {
+    font-size: 12px !important;
+  }
+
+  /* Numele tarii */
+  #rute .reveal[style*="flex:1 1 520px"] > div[style*="inline-flex"] > div:last-child {
+    font-size: clamp(13px, 3.5vw, 18px) !important;
+    padding: 0 9px !important;
+    letter-spacing: 0 !important;
+    white-space: nowrap !important;
+    min-width: 0 !important;
+  }
+
+  /* Sageata tur-retur */
+  #rute .reveal[style*="flex:1 1 520px"] > svg {
+    width: 30px !important;
+    height: 22px !important;
+    flex: 0 0 30px !important;
+  }
+
+  /* Lista oraselor ramane dedesubt */
+  #rute .reveal[style*="flex:1 1 520px"] > div[style*="flex:1 1 100%"] {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+    margin-top: 10px;
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+  }
+}
+
+/* ===== TELEFOANE FOARTE INGUSTE ===== */
+
+@media (max-width: 360px) {
+
+  #rute .reveal[style*="flex:1 1 520px"] {
+    padding: 15px 7px !important;
+    gap: 4px !important;
+  }
+
+  #rute .reveal[style*="flex:1 1 520px"] > div[style*="inline-flex"] {
+    height: 40px !important;
+    max-width: calc((100% - 27px) / 2);
+  }
+
+  #rute .reveal[style*="flex:1 1 520px"] > div[style*="inline-flex"] > div:first-child {
+    width: 25px !important;
+    flex-basis: 25px !important;
+  }
+
+  #rute .reveal[style*="flex:1 1 520px"] > div[style*="inline-flex"] > div:last-child {
+    font-size: 12px !important;
+    padding: 0 5px !important;
+  }
+
+  #rute .reveal[style*="flex:1 1 520px"] > svg {
+    width: 23px !important;
+    height: 18px !important;
+    flex-basis: 23px !important;
+  }
+}
+  </style>
+  
+
+  <!-- ===== DIN DRUM: 6 reel-uri într-o singură linie ===== -->
+  <!-- Fișiere: reel-1.mp4 ... reel-6.mp4 (în același folder). Opțional reel-1.jpg etc. ca poster. -->
+  <section id="din-drum" style="padding:clamp(56px,8vw,112px) 0 clamp(40px,6vw,72px)">
+    <div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,5vw,64px) 36px;box-sizing:border-box">
+      <div class="reveal" style="display:flex;flex-direction:column;gap:14px;max-width:760px">
+        <div class="mono" style="font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#F5821F">Din drum</div>
+        <h2 class="disp" style="margin:0;font-size:clamp(40px,5.6vw,72px);line-height:.98;font-weight:800;text-transform:uppercase;text-wrap:balance">Alături de noi...</h2>
+        <p style="margin:0;font-size:18px;line-height:1.6;color:#C9C9D1"></p>
+      </div>
+    </div>
+    <div class="reels" role="region" aria-label="Clipuri video din curse" tabindex="0">
+      <div class="reel"><video src="reel1.mp4" muted loop playsinline preload="metadata" aria-label="Clip 1"></video></div>
+      <div class="reel"><video src="reel2.mp4" muted loop playsinline preload="metadata" aria-label="Clip 2"></video></div>
+      <div class="reel"><video src="reel3.mp4" muted loop playsinline preload="metadata" aria-label="Clip 3"></video></div>
+      <div class="reel"><video src="reel4.mp4" muted loop playsinline preload="metadata" aria-label="Clip 4"></video></div>
+      <div class="reel"><video src="reel5.mp4" muted loop playsinline preload="metadata" aria-label="Clip 5"></video></div>
+      <div class="reel"><video src="reel6.mp4" muted loop playsinline preload="metadata" aria-label="Clip 6"></video></div>
+    </div>
+  </section>
+
+  <!-- ===== CUM FUNCȚIONEAZĂ ===== -->
+  <section id="cum" style="max-width:1280px;margin:0 auto;padding:clamp(56px,8vw,112px) clamp(20px,5vw,64px);box-sizing:border-box;display:flex;flex-direction:column;gap:48px">
+    <div class="reveal" style="display:flex;flex-direction:column;gap:14px;max-width:760px">
+      <div class="mono" style="font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#F5821F">Cum funcționează</div>
+      <h2 class="disp" style="margin:0;font-size:clamp(40px,5.6vw,72px);line-height:.98;font-weight:800;text-transform:uppercase;text-wrap:balance">Trei pași până la plecare</h2>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:24px">
+
+        <div class="reveal" style="flex:1 1 300px;min-width:0;box-sizing:border-box;border-top:4px solid #F5821F;padding-top:24px;display:flex;flex-direction:column;gap:14px">
+          <div class="disp" style="font-size:72px;line-height:.9;font-weight:800;color:#FFFFFF">1</div>
+          <h3 class="disp" style="margin:0;font-size:32px;line-height:1;font-weight:700;text-transform:uppercase">Ne contactezi</h3>
+          <p style="margin:0;font-size:18px;line-height:1.6;color:#C9C9D1">Sună sau scrie-ne ruta, data dorită și câte persoane sau colete sunt.</p>
+        </div>
+
+        <div class="reveal" style="flex:1 1 300px;min-width:0;box-sizing:border-box;border-top:4px solid #F5821F;padding-top:24px;display:flex;flex-direction:column;gap:14px">
+          <div class="disp" style="font-size:72px;line-height:.9;font-weight:800;color:#FFFFFF">2</div>
+          <h3 class="disp" style="margin:0;font-size:32px;line-height:1;font-weight:700;text-transform:uppercase">Confirmăm cursa</h3>
+          <p style="margin:0;font-size:18px;line-height:1.6;color:#C9C9D1">Îți spunem data plecării, locul de preluare și prețul.</p>
+        </div>
+
+        <div class="reveal" style="flex:1 1 300px;min-width:0;box-sizing:border-box;border-top:4px solid #F5821F;padding-top:24px;display:flex;flex-direction:column;gap:14px">
+          <div class="disp" style="font-size:72px;line-height:.9;font-weight:800;color:#FFFFFF">3</div>
+          <h3 class="disp" style="margin:0;font-size:32px;line-height:1;font-weight:700;text-transform:uppercase">Pleci sau trimiți</h3>
+          <p style="margin:0;font-size:18px;line-height:1.6;color:#C9C9D1">Te prezinți la ora stabilită sau ne predai coletul. Restul e datoria noastră.</p>
+        </div>
+
+    </div>
+  </section>
+
+ 
+<!-- ===== TESTIMONIALE ===== -->
+<section id="testimoniale" style="background:#111111;border-top:1px solid #222222;border-bottom:1px solid #222222">
+  <div style="max-width:1280px;margin:0 auto;padding:clamp(56px,8vw,112px) clamp(20px,5vw,64px);box-sizing:border-box;display:flex;flex-direction:column;gap:48px">
+
+    <div class="reveal" style="display:flex;flex-direction:column;gap:14px;max-width:760px">
+      <div class="mono" style="font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#F5821F">
+        Testimoniale
+      </div>
+      <h2 class="disp" style="margin:0;font-size:clamp(40px,5.6vw,72px);line-height:.98;font-weight:800;text-transform:uppercase;text-wrap:balance">
+        Ce spun clienții noștri
+      </h2>
+    </div>
+
+    <div style="display:flex;flex-wrap:wrap;gap:24px">
+
+      <!-- Recenzie 1 - Exemplu fictiv -->
+      <figure class="reveal" style="flex:1 1 320px;min-width:0;margin:0;box-sizing:border-box;background:#0A0A0A;border:1px solid #2A2A2A;border-radius:18px;padding:32px;display:flex;flex-direction:column;gap:18px">
+        <div class="quote-mark" aria-hidden="true">“</div>
+        <blockquote style="margin:0;font-size:18px;line-height:1.6;color:#E3E3EA">
+          Am mers cu ei până în Germania. Totul a fost ok, șoferul de treabă și am ajuns cu bine. Recomand.
+        </blockquote>
+        <figcaption style="margin-top:auto;padding-top:18px;border-top:1px solid #2A2A2A;display:flex;flex-direction:column;gap:4px">
+          <span class="disp" style="font-size:24px;font-weight:700;text-transform:uppercase;letter-spacing:.04em">
+            Marian P.
+          </span>
+          <span class="mono" style="font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#F5821F">
+            România → Germania
+          </span>
+        </figcaption>
+      </figure>
+
+      <!-- Recenzie 2 - Exemplu fictiv -->
+      <figure class="reveal" style="flex:1 1 320px;min-width:0;margin:0;box-sizing:border-box;background:#0A0A0A;border:1px solid #2A2A2A;border-radius:18px;padding:32px;display:flex;flex-direction:column;gap:18px">
+        <div class="quote-mark" aria-hidden="true">“</div>
+        <blockquote style="margin:0;font-size:18px;line-height:1.6;color:#E3E3EA">
+          Am trimis de câteva ori colete acasă și nu am avut probleme. Au ajuns toate în regulă. Mulțumesc!
+        </blockquote>
+        <figcaption style="margin-top:auto;padding-top:18px;border-top:1px solid #2A2A2A;display:flex;flex-direction:column;gap:4px">
+          <span class="disp" style="font-size:24px;font-weight:700;text-transform:uppercase;letter-spacing:.04em">
+            Elena M.
+          </span>
+          <span class="mono" style="font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#F5821F">
+            Austria → România
+          </span>
+        </figcaption>
+      </figure>
+
+      <!-- Recenzie 3 - Exemplu fictiv -->
+      <figure class="reveal" style="flex:1 1 320px;min-width:0;margin:0;box-sizing:border-box;background:#0A0A0A;border:1px solid #2A2A2A;border-radius:18px;padding:32px;display:flex;flex-direction:column;gap:18px">
+        <div class="quote-mark" aria-hidden="true">“</div>
+        <blockquote style="margin:0;font-size:18px;line-height:1.6;color:#E3E3EA">
+          Prima dată când am mers cu firma asta. Am fost mulțumit, am făcut pauze pe drum și șoferul a condus bine.
+        </blockquote>
+        <figcaption style="margin-top:auto;padding-top:18px;border-top:1px solid #2A2A2A;display:flex;flex-direction:column;gap:4px">
+          <span class="disp" style="font-size:24px;font-weight:700;text-transform:uppercase;letter-spacing:.04em">
+            Florin D.
+          </span>
+          <span class="mono" style="font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#F5821F">
+            România → Olanda
+          </span>
+        </figcaption>
+      </figure>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" style="background:#F5821F;color:#0A0A0A">
+    <div style="max-width:1280px;margin:0 auto;padding:clamp(56px,8vw,104px) clamp(20px,5vw,64px);box-sizing:border-box;display:flex;flex-wrap:wrap;gap:56px;align-items:flex-start">
+      <div class="reveal" style="flex:1 1 400px;min-width:0;display:flex;flex-direction:column;gap:28px">
+        <div class="mono" style="font-size:14px;letter-spacing:.14em;text-transform:uppercase">Contact</div>
+        <h2 class="disp" style="margin:0;font-size:clamp(44px,6.4vw,88px);line-height:.95;font-weight:800;text-transform:uppercase;text-wrap:balance">Spune-ne încotro pleci</h2>
+        <p style="margin:0;font-size:20px;line-height:1.55;max-width:520px">Sună sau scrie-ne ruta, data și numărul de persoane sau de colete. Revenim cu locul și prețul.</p>
+        <div style="display:flex;flex-direction:column;gap:18px;border-top:2px solid #0A0A0A;padding-top:24px">
+          <div style="display:flex;flex-direction:column;gap:4px">
+            <div class="mono" style="font-size:13px;letter-spacing:.14em;text-transform:uppercase">Telefon</div>
+            <div class="disp" style="font-size:36px;font-weight:800;letter-spacing:.03em">0748 706 618</div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:4px">
+            <div class="mono" style="font-size:13px;letter-spacing:.14em;text-transform:uppercase">WhatsApp</div>
+            <div class="disp" style="font-size:36px;font-weight:800;letter-spacing:.03em">0748 706 618</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal" style="flex:1 1 420px;min-width:0;box-sizing:border-box;background:#0A0A0A;color:#FFFFFF;border-radius:20px;padding:clamp(24px,4vw,40px);display:flex;flex-direction:column;gap:20px">
+        <h3 class="disp" style="margin:0;font-size:36px;line-height:1;font-weight:800;text-transform:uppercase">Vorbește cu noi acum</h3>
+        <a class="btn" href="tel:+40748706618" style="background:#F5821F;color:#0A0A0A;border-radius:14px;min-height:64px;padding:12px 24px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:14px;font-weight:700;font-size:22px;text-align:center">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"></path></svg>
+          <span>Sună acum: 0748 706 618</span>
+        </a>
+        <a class="btn" href="https://wa.me/40748706618" style="border:2px solid #FFFFFF;color:#FFFFFF;border-radius:14px;min-height:64px;padding:12px 24px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:14px;font-weight:700;font-size:22px">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-4.2A8.5 8.5 0 1 1 20 11.5z"></path><path d="M9 8.5c.3 2.6 2.9 5.2 5.5 5.5l1.2-1.3-2-1-.8.7c-.9-.4-1.9-1.4-2.3-2.3l.7-.8-1-2z"></path></svg>
+          <span>Scrie pe WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+ 
+<!-- ===== FOOTER HRP EURO TRAVEL ===== -->
+
+<style>
+  #hrp-footer,
+  #hrp-footer * {
+    box-sizing: border-box;
+  }
+
+  #hrp-footer {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 42px clamp(20px, 5vw, 64px) 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #hrp-footer .footer-top {
+    display: grid;
+    grid-template-columns: 160px minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 30px;
+  }
+
+  #hrp-footer .footer-logo {
+    width: 160px;
+    height: 67px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  #hrp-footer .footer-logo img {
+    position: absolute;
+    width: 254px;
+    max-width: none;
+    height: auto;
+    left: -45px;
+    top: -102px;
+    mix-blend-mode: screen;
+  }
+
+  #hrp-footer .footer-slogan {
+    margin: 0;
+    font-size: clamp(17px, 1.8vw, 22px);
+    font-weight: 700;
+    line-height: 1.35;
+    color: #FFFFFF;
+  }
+
+  #hrp-footer .footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  #hrp-footer .footer-socials .social {
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: border-color .2s, background .2s;
+  }
+
+  #hrp-footer .footer-socials .social:hover {
+    border-color: #F5821F;
+    background: #252525;
+  }
+
+  #hrp-footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    border-top: 1px solid #292929;
+    padding-top: 24px;
+  }
+
+  #hrp-footer .footer-description,
+  #hrp-footer .footer-copyright {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #A8A8B2;
+  }
+
+  #hrp-footer .footer-copyright {
+    text-align: right;
+  }
+
+  /* ===== TABLET ===== */
+
+  @media (max-width: 900px) {
+    #hrp-footer .footer-top {
+      grid-template-columns: 160px minmax(0, 1fr);
+      gap: 18px 24px;
+    }
+
+    #hrp-footer .footer-socials {
+      grid-column: 2;
+    }
+
+    #hrp-footer .footer-bottom {
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    #hrp-footer .footer-copyright {
+      text-align: left;
+    }
+  }
+
+  /* ===== MOBILE ===== */
+
+  @media (max-width: 600px) {
+    #hrp-footer {
+      padding: 40px 20px 85px;
+      gap: 30px;
+    }
+
+    #hrp-footer .footer-top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+    }
+
+    #hrp-footer .footer-logo {
+      width: 180px;
+      height: 75px;
+      flex: 0 0 75px;
+    }
+
+
+    #hrp-footer .footer-slogan {
+      max-width: 330px;
+      margin: 0 auto;
+      font-size: 21px;
+      line-height: 1.4;
+      font-weight: 700;
+      text-align: center;
+      text-wrap: balance;
+    }
+
+    #hrp-footer .footer-socials {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      width: 100%;
+      margin-top: 2px;
+    }
+
+    #hrp-footer .footer-socials .social {
+      width: 52px;
+      height: 52px;
+      flex-basis: 52px;
+      border-radius: 14px;
+    }
+
+    #hrp-footer .footer-socials .social svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    #hrp-footer .footer-bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      padding-top: 25px;
+      text-align: center;
+    }
+
+    #hrp-footer .footer-description {
+      max-width: 340px;
+      font-size: 14px;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    #hrp-footer .footer-copyright {
+      max-width: 340px;
+      font-size: 12px;
+      line-height: 1.7;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 360px) {
+    #hrp-footer {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    #hrp-footer .footer-slogan {
+      font-size: 19px;
+    }
+  }
+</style>
+
+
+<footer id="hrp-footer">
+
+  <!-- PARTEA SUPERIOARA -->
+  <div class="footer-top">
+
+    <!-- LOGO -->
+    <div class="footer-logo">
+      <a href="#top">
+      <img src="logo.png" alt="HRP Euro Travel">
+      </a>
+    </div>
+
+    <!-- SLOGAN -->
+    <h3 class="footer-slogan">
+      Travel Well! <br>Destinația ta e misiunea noastră! 🤝
+    </h3>
+
+    <!-- SOCIAL MEDIA -->
+    <nav class="footer-socials" aria-label="Rețele sociale">
+
+      <!-- FACEBOOK -->
+      <a class="social"
+         href="https://www.facebook.com/profile.php?id=61577235911796&amp;locale=ro_RO"
+         aria-label="Facebook"
+         target="_blank"
+         rel="noopener noreferrer">
+
+        <svg width="22" height="22"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="#FFFFFF"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             aria-hidden="true">
+          <path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8.5A.5.5 0 0 1 14 8z"/>
+        </svg>
+      </a>
+
+      <!-- TIKTOK -->
+      <a class="social"
+         href="https://www.tiktok.com/@catalinhrp"
+         aria-label="TikTok"
+         target="_blank"
+         rel="noopener noreferrer">
+
+        <svg width="22" height="22"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="#FFFFFF"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             aria-hidden="true">
+          <path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/>
+          <path d="M14 3c.4 2.6 2 4.2 5 4.4"/>
+        </svg>
+      </a>
+
+      <!-- WHATSAPP -->
+      <a class="social"
+         href="https://wa.me/40748706618"
+         aria-label="WhatsApp"
+         target="_blank"
+         rel="noopener noreferrer">
+
+        <svg width="22" height="22"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="#FFFFFF"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             aria-hidden="true">
+          <path d="M20 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-4.2A8.5 8.5 0 1 1 20 11.5z"/>
+          <path d="M9 8.5c.3 2.6 2.9 5.2 5.5 5.5l1.2-1.3-2-1-.8.7c-.9-.4-1.9-1.4-2.3-2.3l.7-.8-1-2z"/>
+        </svg>
+      </a>
+
+    </nav>
+
+  </div>
+
+  <!-- PARTEA INFERIOARA -->
+  <div class="footer-bottom">
+
+    <div class="footer-description">
+      Transport persoane și colete · România · Austria ·
+      Germania · Olanda · Belgia
+    </div>
+
+    <div class="footer-copyright">
+      © 2026 HRP Euro Travel · HRP EUROPE TOURS SRL · 54749775
+    </div>
+
+  </div>
+
+</footer>
+<!-- ===== SFARSIT FOOTER ===== -->
+
+
+  <div style="position:fixed;right:16px;bottom:16px;z-index:50;display:flex;flex-direction:column;align-items:flex-end;gap:12px">
+    <a href="#top" aria-label="Înapoi sus" style="width:48px;height:48px;border-radius:50%;background:#12337A;border:2px solid #FFFFFF;display:flex;align-items:center;justify-content:center">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"></path></svg>
+    </a>
+    <a href="https://wa.me/40748706618" aria-label="Scrie pe WhatsApp" style="width:56px;height:56px;border-radius:50%;background:#128C4A;display:flex;align-items:center;justify-content:center">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-4.2A8.5 8.5 0 1 1 20 11.5z"></path><path d="M9 8.5c.3 2.6 2.9 5.2 5.5 5.5l1.2-1.3-2-1-.8.7c-.9-.4-1.9-1.4-2.3-2.3l.7-.8-1-2z"></path></svg>
+    </a>
+    <a class="callbtn pulse" href="tel:+40748706618" style="height:56px;padding:0 22px;border-radius:28px;background:#F5821F;color:#0A0A0A;display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;box-sizing:border-box">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"></path></svg>
+      <span class="calllbl">Sună acum</span>
+    </a>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  // Hero video: pornește garantat, fără controale; se oprește dacă utilizatorul preferă mișcare redusă
+  var hero = document.getElementById('hero-video');
+  if (hero) {
+    hero.muted = true;
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) { hero.removeAttribute('autoplay'); hero.pause(); }
+    else { var p = hero.play(); if (p && p.catch) p.catch(function(){}); }
+  }
+
+  // Reel-uri: rulează doar când sunt vizibile (economisește date și baterie)
+  var reels = document.querySelectorAll('.reel video');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        var v = e.target;
+        if (e.isIntersecting) { var pr = v.play(); if (pr && pr.catch) pr.catch(function(){}); }
+        else { v.pause(); }
+      });
+    }, { threshold: 0.4 });
+    reels.forEach(function(v){ io.observe(v); });
+  } else {
+    reels.forEach(function(v){ v.setAttribute('autoplay',''); });
+  }
+})();
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  // Navigare intre sectiuni fara modificarea URL-ului
+  document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+
+    link.addEventListener('click', function (e) {
+
+      const targetId = this.getAttribute('href');
+
+      if (!targetId || targetId === '#') return;
+
+      const target = document.getElementById(targetId.substring(1));
+
+      if (!target) return;
+
+      e.preventDefault();
+
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+
+    });
+
+  });
+
+});
+</script>
+
+</body>
+</html>
